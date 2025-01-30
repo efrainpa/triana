@@ -1,0 +1,222 @@
+* {
+    /*background-color: white;*/
+    background: none;
+}
+#btn-play{
+ display:none;
+}
+.container{
+    position: fixed;
+    top: 5pt;
+    left: 5pt;
+    background: none;
+}
+.container div{
+    background: none;
+}
+
+
+label{
+    display: block;
+    font-size: 70pt;
+    color: chocolate;
+    border-radius: 30pt;
+    background: black;
+    text-align: center;
+    box-shadow: 0pt 1pt 10pt;
+}
+.cont-nombres {
+    /*display:flex;
+    flex-direction: column;*/
+    display:block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    padding: 0px;
+}
+
+.cont-nombres div {
+    background: none;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0pt;
+    margin-top: 5pt;
+    text-align: center;
+    font-size: 50pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.cont-nombres .blank {
+    display: flex;
+    flex-grow: 1;
+}
+.divisor{
+    height: 5pt;
+    width: 5pt;
+}
+.cont-fecha1{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    background-position: center;
+    
+}
+.cont-fecha1 div{
+    display: block;
+    justify-content: center;
+    background: none;
+
+}
+.cont-fecha div img{
+    background: none;
+ 
+}
+
+.cont-fecha {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-fecha div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    padding: 10pt;
+    background: none;
+}
+
+.cont-temporizador {
+    display:flex;
+    align-content:end;
+    justify-content:end;
+    width: 100%; 
+    height:100vh;
+    background-image: url("img/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont-temporizador .bloque {
+    margin-bottom: 10pt;
+    margin-top: 600pt;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    /*background-image:url("img/3.jpg");*/
+}
+
+.cont-temporizador .bloque div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: #e0239b;
+    font-size: 45pt;
+    font-weight: normal;
+    font-family:serif;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+}
+
+.cont-temporizador .bloque p {
+    font-size: 15pt;
+    color: #e0239b;
+    margin-top: 0px;
+    padding-top: 0pt;
+    background: none;
+}
+
+.cont-lugar div {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-tampico div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5pt;
+}
+
+.cont-sede div {
+    display: flex;
+    margin-top: 5pt;
+
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont-salon div {
+    display: flex;
+    margin-top: 5pt;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5pt;
+}
+
+.cont-mapa div a {
+    display: flex;
+    margin-top: 0pt;
+ 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5pt;
+}
+.cont-deseos div a {
+    display: flex;
+    margin-top: 0pt;
+ 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5pt;
+}
+.cont-protocolo div{
+    display: flex;
+    margin-top: 0pt;
+ 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5pt;
+}
+.cont-asistencia div a{
+    display: flex;
+    margin-top: 0pt;
+ 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5pt;
+}
+img{
+    transition: all 0.5s ease;
+}
+img:first{
+    transform: scale(0.9);
+    /*transform: scale(1);*/
+  
+}
+
+.claseDelDiv{
+    background-image: url("img/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

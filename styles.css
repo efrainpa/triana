@@ -225,3 +225,13 @@ img:first{
     /* Vamos a añadir esto 👇 */
     scroll-snap-align: center;
   }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      margin: auto;
+  }
+  .carousel-caption d-none d-md-block{
+    background: none;
+    
+  }

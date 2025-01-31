@@ -4,6 +4,13 @@
     <title>XV Triana</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/fontello.css">
+    <!--****************************-->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--******************************-->
 </head>
 
 <body>
@@ -83,90 +90,79 @@
     <div class="cont-mensaje">
         <div><img src="img/10.jpg" alt="" width="100%" srcset=""></div>
     </div>
-    <!-- SLIDER DE IMAGENES -->
+    <!-- SLIDER DE IMAGENES 
     <div class="slider-container">  
         <img
           class="slider-item"
-          src="triana/img/carrusel/1.JPG"
+          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/1.JPG"
         />
         <img
           class="slider-item"
-          src="/img/carrusel/2.JPG"
+          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/2.JPG"
         />
         <img
           class="slider-item"
-          src="img/carrusel/3.JPG"
+          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/3.JPG"
         />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/4.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/5.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/6.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/7.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/8.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/9.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/10.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/11.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/12.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/13.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/14.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/15.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/16.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/17.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/18.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/19.JPG"
-        />
-        <img
-          class="slider-item"
-          src="https://github.com/efrainpa/triana/tree/main/img/carrusel/20.JPG"
-        />
+      
       </div> 
       <!-- ******************* -->
+      <div class="cont-carrusel">
+        <br>
+        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#theCarousel" data-slide-to="1"></li>
+            <li data-target="#theCarousel" data-slide-to="2"></li>
+            <li data-target="#theCarousel" data-slide-to="3"></li>
+            
+          </ol>
+      
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/carrusel/1.JPG" alt="Ilustracion" > 
+              <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+            </div>
+      
+            <div class="item">
+              <img src="img/carrusel/2.JPG" alt="fotografia" width="600" height="424"> 
+               <div class="carousel-caption d-none d-md-block">
+          <h3>Triana</h3>
+          <p>mis XV</p>
+        </div>
+            </div>
+      
+           <div class="item">
+              <img src="img/carrusel/3.JPG" alt="pintura" width="600" height="424">
+               <div class="carousel-caption d-none d-md-block">
+          <h3>Triana</h3>
+          <p>mis XV</p>
+        </div>
+            </div>
+             <div class="item">
+              <img src="img/carrusel/4.JPG" alt="diseno" width="600" height="424"> 
+               <div class="carousel-caption d-none d-md-block">
+          <h3>Triana</h3>
+          <p>mis XV</p>
+        </div>
+            </div>
+      
+      
+          <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">anterior</span>
+          </a>
+          <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">siguiente</span>
+          </a>
+        </div>
+      </div>
+
+
     <script src="app.js"></script>
 
 </body>

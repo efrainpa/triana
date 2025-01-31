@@ -113,7 +113,7 @@ function cargaDias(segundos, minutos, horas) {
 setInterval(cargarSegundo, 1000);
 
 function play(){
-    var audio = new Audio('musica/This Is Me.mp3');
+    var audio = new Audio('musica/Taylor Swift - Never Grow Up.m4a');
     audio.play();
     var boton = document.getElementById('btn-play');
     boton.disabled=true;

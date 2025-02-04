@@ -220,7 +220,7 @@ img:first{
   .slider-container img {
     flex: 0 0 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
   
     /* Vamos a añadir esto 👇 */
     scroll-snap-align: center;
